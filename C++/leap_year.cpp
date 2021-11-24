@@ -1,5 +1,7 @@
 #include <iostream>
 
+// This program will check that the year is leap year or not
+
 using namespace std;
 
 int main() {
