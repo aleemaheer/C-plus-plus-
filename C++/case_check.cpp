@@ -1,5 +1,8 @@
 #include <iostream>
 
+// Program to check that the character that the user have entered is 
+// uppercase or lowercase
+
 using namespace std;
 
 int main () {
@@ -13,6 +16,6 @@ int main () {
         cout << "It is a uppercase letter.\n";
     }
     else {
-        cout << "Invalid character!";
+        cout << "Invalid character!\n";
     }
 }
