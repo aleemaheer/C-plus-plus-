@@ -15,6 +15,8 @@ int main () {
         }
     }
     if (flag == 1) {
-        cout << "this is a prime number\n";
+        cout << "Prime number\n";
+    } else {
+        cout << "Not a prime number\n";
     }
 }
