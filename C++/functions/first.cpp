@@ -11,7 +11,7 @@ int sum() {
 }
 
 int main() {
-    // calling sum function in main
+    // Calling sum function in main
     int s;
     s = sum();
     cout << "Sum of numbers: " << s << "\n";
