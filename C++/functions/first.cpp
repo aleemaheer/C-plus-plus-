@@ -28,7 +28,7 @@ int division() {
 
 int main() {
     // Calling sum function in main
-    // Asking user to choose whether he wants to perform addition or multiplication
+    // Asking user to choose whether he wants to perform addition, multiplication or division
     int ask;
     cout << "What you want to do: \nPress\n1 for addition\n2 for division\n3 for multiplication\n";
     cin >> ask;
