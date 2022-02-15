@@ -10,6 +10,14 @@ int sum() {
     return sum;
 }
 
+int multiplication() {
+    int a, b, answer;
+    cout << "Enter two numbers : \n";
+    cin >> a >> b;
+    answer = a * b;
+    return answer;
+}
+
 int division() {
     int a, b, answer;
     cout << "Enter two numbers to divide them: \n";
@@ -22,7 +30,7 @@ int main() {
     // Calling sum function in main
     // Asking user to choose whether he wants to perform addition or multiplication
     int ask;
-    cout << "What you want to do multiplication or division: (1 for addition, 2 for division):\n";
+    cout << "What you want to do: \nPress\n1 for addition\n2 for division\n3 for multiplication\n";
     cin >> ask;
     if (ask == 1) {
         int s;
@@ -32,7 +40,11 @@ int main() {
         int s;
         s = division();
         cout << "Division of numbers: " << s << "\n";
+    } else if (ask == 3) {
+        int s;
+        s = multiplication();
+        cout << "Multiplication of numbers: " << s << "\n";
     } else {
-        cout << "Invalid choice!\n";
+        cout << "Invalid choice!";
     }
 }
