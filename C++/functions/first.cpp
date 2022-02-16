@@ -12,7 +12,7 @@ int sum() {
 
 int subtraction() {
     int a, b, answer;
-    cout << "Enter two to numbers: \n";
+    cout << "Enter two numbers: \n";
     cin >> a >> b;
     answer = a - b;
     return answer;
