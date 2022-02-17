@@ -1,3 +1,8 @@
+/* This program will display the four operations to the user
+   User can choose what operation the user wants to perform
+   This program is a practice of functions, for each operation there is a 
+   seperated function to be called based on the user's input */
+
 #include <iostream>
 
 using namespace std;
