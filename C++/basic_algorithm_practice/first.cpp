@@ -3,19 +3,19 @@
 // triple means that if a user input the same two numbers for example
 // 2, 2 => 2 + 2 = 4 * 3 = 12
 
+
 #include <iostream>
 
 using namespace std;
 
+int check(int num1, int num2) {
+    return num1 == num2 ? (num1 + num2)* 3 : num1 + num2;
+}
+
 int main() {
-    int num1, num2, result;
-    cout << "Enter two numbers to add: \n";
+    int num1, num2, answer;
+    cout << "Enter to numbers: \n";
     cin >> num1 >> num2;
-    if (num1 == num2) {
-        result = (num1 + num2) * 3;
-        cout << result << "\n";
-    } else {
-        result = num1 + num2;
-        cout << result << "\n";
-    }
+    answer = check(num1, num2);
+    cout << answer << endl;
 }
