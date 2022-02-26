@@ -1,5 +1,6 @@
 // Program to print a multiplication table
 // This program will take two integers from the user, one is range of table and second is the number that we want to print the table of
+// 
 
 #include <iostream>
 
