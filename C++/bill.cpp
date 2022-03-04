@@ -37,5 +37,5 @@ int main() {
     }
 
     // Printing the bill
-    cout << "Your bill is " << bill;
+    cout << "Your bill is " << bill << endl;
 }
