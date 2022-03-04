@@ -28,6 +28,14 @@ int main() {
         bill = (50 * 3.50) + (100 * 4.50) + (units - 150) * 5.50;
     }
 
+    // Applying tax on bill
+    if (bill >= 2000 && bill < 5000) {
+        bill = (bill * 0.15) + bill;
+    }
+    if (bill >= 5000) {
+        bill = (bill * 0.30) + bill;
+    }
+
     // Printing the bill
     cout << "Your bill is " << bill;
 }
