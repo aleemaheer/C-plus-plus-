@@ -11,8 +11,9 @@ int main() {
     cin >> n;
     for (int i = 0; i <= 4; i++) {
         if (n == a[i]){
-            cout << "The number " << n << " is founded at index " << a[i] << endl;
+            cout << "The number " << n << " is founded at index " << i << endl;
             f = 1;
+            break;
         }
     }
     if (f == 0) 
